@@ -4,8 +4,11 @@ import React from 'react'
 import { GrAccessibility } from 'react-icons/gr'
 import { HiBars3BottomRight } from 'react-icons/hi2'
 
+type Props = {
+    openNav: () => void
+}
 
-const Nav = () => {
+const Nav = ({openNav}:Props) => {
   return (
     <div className='bg-blue-950 transition-all duration-200 h-[12vh] z-[1000] fixed w-full'>
         <div className="flex items-center h-full justify-between w-[90%] x1:w-[80%] mx-auto">
@@ -34,7 +37,7 @@ const Nav = () => {
             <div className="flex items-center space-x-4">
                 <button className='md:px-12 md:py-2.5 px-8 py-2 text-black text-base bg-white hover:bg-gray-200 transiction-all duration-200 rounded-lg'>Entrar</button>
                 {/* { burger menu } */}
-                <HiBars3BottomRight className='w-8 h-8 text-white cursor-pointer lg:hidden' />
+                <HiBars3BottomRight onClick={openNav} className='w-8 h-8 text-white cursor-pointer lg:hidden' />
             </div>
         </div>
     </div>
