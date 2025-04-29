@@ -1,5 +1,5 @@
 'use client'
-import { navLinks } from '@/constant/constant'
+import { navLinks } from '@/constant/constant';
 import Link from 'next/link'
 import React, { useEffect } from 'react'
 import { GrAccessibility } from 'react-icons/gr'
