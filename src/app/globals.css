@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
 .meu-rodape {
     border-top: 1px solid #ccc;
     text-align: center;
@@ -10,4 +15,144 @@
     font-size: 14px; /* Tamanho de fonte adequado */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     
-  }
+}
+
+
+/* CADASTRO */
+.form-cadastro {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9fafb;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-cadastro fieldset {
+    border: none;
+    
+}
+
+.form-cadastro legend {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #333;
+}
+
+.form-cadastro div {
+    margin-bottom: 15px;
+}
+
+.form-cadastro label {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+    color: #555;
+}
+
+.form-cadastro input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    outline: none;
+    font-size: 1rem;
+    color: #333;
+}
+
+.form-cadastro input:focus {
+    border-color: #4f86f7;
+}
+
+.form-cadastro button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4f86f7;
+    color: white;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.form-cadastro button:hover {
+    background-color: #3d6fcb;
+}
+
+/* LOGIN */
+.form-login {
+    
+    margin: 0 auto;
+    padding:20px;
+    background-color: #f9fafb;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-login fieldset {
+    border: none;
+}
+
+.form-login legend {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #333;
+}
+
+.form-login div {
+    margin-bottom: 15px;
+}
+
+.form-login label {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+    color: #555;
+}
+
+.form-login input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    outline: none;
+    font-size: 1rem;
+    color: #333;
+}
+
+.form-login input:focus {
+    border-color: #4f86f7;
+}
+
+.form-login button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4f86f7;
+    color: white;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.form-login button:hover {
+    background-color: #3d6fcb;
+}
+
+.form-login p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.form-login a {
+    color: #4f86f7;
+}
+
+.form-login a:hover {
+    text-decoration: underline;
+}
