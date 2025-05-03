@@ -1,10 +1,10 @@
 import React from 'react'
-import People from './Inicio/Inicio'
+import Inicio from './Inicio/Inicio'
 
 const Home = () => {
   return (
     <div className='overflow-hidden'>
-      <People/>
+      <Inicio/>
     </div>
   )
 }
