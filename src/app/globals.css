@@ -1,2 +1,13 @@
 @import "tailwindcss";
 
+.meu-rodape {
+    border-top: 1px solid #ccc;
+    text-align: center;
+    background-color: #f8f9fa; /* Cor de fundo suave */
+    padding: 10px 0; /* Espaçamento interno */
+    color: #6c757d; /* Cor do texto mais suave */
+    font-family: 'Roboto', sans-serif; /* Fonte mais moderna */
+    font-size: 14px; /* Tamanho de fonte adequado */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+  }

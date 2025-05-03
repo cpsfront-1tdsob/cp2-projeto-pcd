@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import {Poppins} from 'next/font/google'
 import "./globals.css";
 import ResponsiveNav from "@/components/Home/Navbar/ResponsiveNav";
+import Rodape from "@/components/Rodape/Rodape";
 
 
 const font = Poppins({
@@ -36,6 +37,7 @@ export default function RootLayout({
         className={`${font.className} antialiased`}>
         <ResponsiveNav/>
         {children}
+        <Rodape/>
       </body>
     </html>
   );
