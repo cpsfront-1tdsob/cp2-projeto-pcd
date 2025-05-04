@@ -6,7 +6,7 @@ import type React from "react"
 import { useRouter } from "next/navigation"
 import { useEffect, useState } from "react"
 
-// Extended user type with additional fields
+
 interface UsuarioExtendido extends TipoUsuario {
   telefone?: string
   endereco?: string
