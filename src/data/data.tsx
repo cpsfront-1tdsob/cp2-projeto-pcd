@@ -2,7 +2,7 @@
 export const serivcesData = [
     {
       id: 1,
-      image: "/images/Servicos-de-Saude-Reabilitacao.jpg",
+      image: "/images/Servicos-Reabilitacao.jpg",
       tipo: "Saúde e Reabilitação"
     },
     {
