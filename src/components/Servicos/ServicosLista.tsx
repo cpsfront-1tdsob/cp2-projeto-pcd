@@ -10,11 +10,7 @@ import ServicoCard from "./ServicoCard"
 export default function ServicosLista() {
   const router = useRouter()
   const [focusedIndex, setFocusedIndex] = useState<number | null>(null)
-
-  // pedir login para acessar a página de serviços
   
-
-
 
   // Map service types to their respective routes
   const serviceRoutes: Record<string, string> = {
