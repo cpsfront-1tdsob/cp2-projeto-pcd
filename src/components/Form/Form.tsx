@@ -5,12 +5,17 @@ import { TipoUsuario } from "@/types/TipoUsuario";
 import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
 
+
+
 export default function Form() {
+
 
   const navigate = useRouter();
 
   const [listaUsuarios, setlistaUsuarios] = useState<TipoUsuario[]>()
 
+
+  
   useEffect(() => {
 
     if(!localStorage.getItem("listaUsuarios")){
