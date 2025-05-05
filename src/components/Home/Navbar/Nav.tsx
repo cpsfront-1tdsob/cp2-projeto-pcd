@@ -1,15 +1,12 @@
 'use client'
 import { navLinks } from '@/constant/constant';
 import Link from 'next/link'
-import React, { useEffect } from 'react'
+import React from 'react'
 import { GrAccessibility } from 'react-icons/gr'
-import { HiBars3BottomRight } from 'react-icons/hi2'
 
-type Props = {
-    openNav: () => void
-}
 
-const Nav = ({openNav}:Props) => {
+
+const Nav = () => {
 
   return (
     <div className='bg-blue-950 transition-all duration-200 h-[12vh] z-[1000] fixed w-full'>
@@ -35,12 +32,7 @@ const Nav = ({openNav}:Props) => {
                 )
             })}
             </div>
-            {/* {Buttons} */}
-            <div className="flex items-center space-x-4">
-                <button className='md:px-12 md:py-2.5 px-8 py-2 text-black text-base bg-white hover:bg-gray-200 transiction-all duration-200 rounded-lg'>Entrar</button>
-                {/* { burger menu } */}
-                <HiBars3BottomRight onClick={openNav} className='w-8 h-8 text-white cursor-pointer lg:hidden' />
-            </div>
+            
         </div>
     </div>
   )
