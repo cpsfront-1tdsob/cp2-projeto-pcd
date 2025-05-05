@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "Lista de serviços e recursos para pessoas com deficiência",
 }
 
-export default function ListagemPage() {
+export default function Listagem() {
   return (
     <div className="pt-[12vh] min-h-screen bg-gray-50">
       <div className="container mx-auto px-4 py-8">

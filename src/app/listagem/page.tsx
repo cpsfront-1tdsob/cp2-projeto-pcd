@@ -1,10 +1,19 @@
-import ListagemPage from "@/components/Listagem/Listagem";
+import Listagem from "@/components/Listagem/Listagem";
+// import { isUserLoggedIn } from "@/lib/auth";
+// import { redirect } from "next/navigation";
 
 
-export default function Listagem(){
-    return(
+export default async function ListagemPage(){
+
+    // const loggedIn = await isUserLoggedIn();
+
+    // if (!loggedIn) {
+    //     redirect("/login");
+    // }
+
+    return (
         <div>
-            <ListagemPage/>
+            <Listagem />
         </div>
-    )
+    );
 }
